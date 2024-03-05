@@ -1,0 +1,35 @@
+version: 2
+ 
+sources:
+  - name: world
+    database: my_third_dag
+    schema: my_third_schema
+    tables:
+      - name: world_table
+        description: raw data for world
+        columns:
+          - name: Brand
+            description: primary key for actor.
+
+          - name: Discount Percentage
+            description: Percanatge of discount given
+
+          - name: Mrp
+
+          - name: Number of Ratings
+            description: Rating given by customers
+
+          - name: Number of Reviews
+            description: Reviews given by customers
+            
+          - name: Product Name
+
+          - name: Ram
+            description: Random Access memory
+
+          - name: Sale Price
+            description: Selling Price
+
+          - name: Star Rating
+            description: Rating in star      
+            
